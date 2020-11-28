@@ -5,7 +5,7 @@
 
 \title{Resume}
 \author{Jerry Mao}
-\date{May 2020}
+\date{Oct. 2020}
 
 \hypersetup{
     colorlinks=true,
@@ -28,15 +28,36 @@ Senior Software Engineer at Yahoo! \cvinfosep
 
 \makecvtitle %% This is a custom command constructing the CV title from \cvname, \cvpersonalinfo
 
+\section{Education}
+\cvsubsection{M.S., Department of Computer Science, National Tsing Hua University}[Hsinchu, Taiwan]
+[Networking and Multimedia Systems Lab][Sept 2015 to Jun 2017]
+
+\begin{itemize}
+\item Research Fields : Computer Networks, Radio Access Networks, Cloud, Software Defined
+Networks
+\item GPA 4.16/4.3
+\end{itemize}
+
+\cvsubsection{B.S., Department of Computer Science, National Tsing Hua University}[Hsinchu, Taiwan]
+[Networking and Multimedia Systems Lab][Sept 2011 to Jun 2015]
+\begin{itemize}
+\item Selective Courses: Software Studio Lab (A+), Web Programming (A+), Introduction to Multimedia (A+), Introduction to Computer Networks (A+), Competitive Programming Training (A), Java Programming Language (A), Introduction to Programming (A)
+\item GPA 3.77/4.3 (3.9 for Computer Science Courses)
+\end{itemize}
+
 \section{Experience}
 \cvsubsection{Senior Software Engineer}[Oct. 2019 to present]
 [Yahoo!][Taipei, Taiwan]
 \begin{itemize}
-\item \textbf{Read-time Local Search} (Back-end , Vespa, Java, k8s, Python) In this project, we provide the real-time location information data, e.g. Ubike, Bus schedule and parking information, to our map products. I have built a data pipeline to consume governments' open API and a search application to provide real-time data on our Yahoo mobile app.
-\item \textbf{Yahoo Trending} (Back-end, PHP, Python, Hadoop) I have been working on the Yahoo Trending system since early 2020, I involved in the system migration from rhel6 to rhel7 and python2 to python3. Besides, I involve in trending revenue system for Taiwan and Hongkong markets and our goal is to generate the trending revenue keywords automatically.
-\item \textbf{TV Series Search for Taiwan} (Back-end, Python, Vespa, Java) I am the lead engineer for Yahoo TV search which is the TV guide for user to search for the available TV sources from online streaming providers. In this project, I have built: 1) A web crawler which discovers the video content in possible online providers. 2) A data pipeline which processes the crawled data and transform them for search experience. 3) A search application based on \href{https://vespa.ai/}{Vespa} which powers the search scenarios on Yahoo Search ( \href{https://tw.search.yahoo.com/search?p=%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA}{
-Link}) and Yahoo App. 
-\item \textbf{Handwriting System migration} (Back-end, AWS) I have been working on the AWS migration for handwriting system in early 2020. To reduce the maintanance cost and provide secure connection, I have built a deployment pipeline using Cloudformation to port the system on AWS and upgrade the API with mTLS support.
+
+\item \textbf{Yahoo TrendingNow} (Big Data, Python, PHP) Yahoo TrendingNow discovers the trending topics among Yahoo networks. Based on the user search queries and real-time news content, we analyze the data and provide a list of popular terms to allow users to discover more content on the hot topics. My contributions include 1) Redesign the API and introduce monitoring and alerting, 2) Migrate platform from rhel6 to rhel7 and python2 to python3, 3) Optimize trending commercial keywords in Taiwan and Hong Kong markets. After we launch the new approach, 73\% of the revenue gain is observed since we introduced a more real-time trending keywords process.
+
+\item \textbf{TV Series Search for Taiwan} (Search Application, Python, Java) TV Series Search is the TV guide for the users to explore the available sources from online streaming providers.  In this project, I have built: 1) A web crawlers that discover the video content from online service providers. 2) Data pipelines that process all the crawled data and build a relational data structure. 3) A optimized search application provides well-designed search experiences \href{https://tw.search.yahoo.com/search?p=%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA}{
+Link} to our users. The metrics show that we cover more than 1\% of the search traffic and 25\% of users who interact with this product. The performance results indicate higher engagement among our search applications.
+
+\item \textbf{Read-time Local Search} (Kubernetes, Search Application, Java, Python) In this project, we provide real-time location information data, e.g. public rental bikes, and parking information, to our map products. The data is streaming into our location search service through our well-designed real-time data pipeline and then presented on our search products.
+
+% \item \textbf{Handwriting System migration} (Back-end, AWS) I have been working on the AWS migration for handwriting system in early 2020. To reduce the maintanance cost and provide secure connection, I have built a deployment pipeline using Cloudformation to port the system on AWS and upgrade the API with mTLS support. %
 
 
 \end{itemize}
@@ -44,8 +65,8 @@ Link}) and Yahoo App.
 \cvsubsection{Software Engineer}[Aug. 2017 to Oct. 2019]
 [Yahoo!][Taipei, Taiwan]
 \begin{itemize}
-\item \textbf{Yahoo Dictionary} (Front-end, Back-end, Vespa, Java, Python) I am the project owner of Yahoo Dictionary (\href{https://tw.dictionary.search.yahoo.com/}{link}). Since 2018, I have driven the dictionary interfaces redesign in Taiwan and HongKong markets which increase the daily active users by 12\%. Besides, I also maintained the dictionary back-end system, which powered all the search scenarios among Yahoo products.
-\item \textbf{Yahoo Search} (Front-end) I first joined Yahoo as Search Front-end engineer, I have been involved in various Yahoo search interfaces development. In particular, my contributions include: 1) Implemented image ads at Yahoo search which increase revenue by 2\% in Taiwan markets 2) Improving the Local search with our new ajax framework which optimze the loading cost and increases 1\% user clicks and 3) Consolidate the carousel implementation which reduces the complexity and mainatance effort.
+\item \textbf{Yahoo Dictionary} (Front-end, Search Application, Java, Python) I am the project owner of Yahoo Dictionary (\href{https://tw.dictionary.search.yahoo.com/}{link}). I have driven the dictionary interface redesign in Taiwan and Hong Kong markets that increase the daily active users by 12\%. Besides, I also maintained the dictionary back-end system, which powered all the search scenarios among Yahoo products.
+\item \textbf{Yahoo Search} (Front-end, HTML, CSS, Javascript) I first joined Yahoo as a front-end engineer, I have been involved in various Yahoo search interfaces development. In particular, my contributions include: 1) Implemented image ads at Yahoo search which increase revenue by 2\% in Taiwan markets 2) Improving the Local search with our new Ajax framework which optimize the loading cost and increases 1\% user clicks and 3) Consolidate the carousel implementation which reduces the complexity and maintenance effort.
 \end{itemize}
 
 \cvsubsection{Research Assistant}[Nov. 2014 to Jun. 2017]
@@ -62,23 +83,6 @@ Link}) and Yahoo App.
 \begin{itemize}
 \item I participated in the 5G project, which is a joint project between National Tsing Hua University, Hsinchu and TsingHua University, Beijing. I was invited by TsingHua
 University to share the experience on 5G virtualization.
-\end{itemize}
-
-\section{Education}
-\cvsubsection{M.S., Department of Computer Science, National Tsing Hua University}[Hsinchu, Taiwan]
-[Networking and Multimedia Systems Lab][Sept 2015 to Jun 2017]
-
-\begin{itemize}
-\item Research Fields : Computer Networks, Radio Access Networks, Cloud, Software Defined
-Networks
-\item GPA 4.16/4.3
-\end{itemize}
-
-\cvsubsection{B.S., Department of Computer Science, National Tsing Hua University}[Hsinchu, Taiwan]
-[Networking and Multimedia Systems Lab][Sept 2011 to Jun 2015]
-\begin{itemize}
-\item Selective Courses: Software Studio Lab (A+), Web Programming (A+), Introduction to Multimedia (A+), Introduction to Computer Networks (A+), Introduction to Communications (A+), Competitive Programming Training (A), Java Programming Language (A), Introduction to Programming (A)
-\item GPA 3.77/4.3 (3.9 for Computer Science Courses)
 \end{itemize}
 
 \section{Publication}
