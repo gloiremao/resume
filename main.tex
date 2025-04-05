@@ -5,106 +5,137 @@
 
 \title{Resume}
 \author{Jerry Mao}
-\date{Oct. 2020}
+\date{Mar. 2025}
 
 \hypersetup{
     colorlinks=true,
-    linkcolor=blue,    
+    linkcolor=blue,
     urlcolor=blue
-    }
+}
 
 %% These are custom commands defined in scimisc-cv.sty
-\cvname{Jerry Mao (Chen-Nien Mao)}
+\cvname{Jerry (Chen-Nien) Mao}
 \cvpersonalinfo{
-Senior Software Engineer at Yahoo! \cvinfosep 
-+886 953701571 \cvinfosep
+Lead Software Engineer with Yahoo! \cvinfosep 
 \href{mailto:chennien.mao@gmail.com}{chennien.mao@gmail.com} \cvinfosep
 \href{https://www.linkedin.com/in/chennien-mao/}{LinkedIn:chennien-mao}
+\cvinfosep Taipei, Taiwan
 }
 
 \begin{document}
 
-% \maketitle %% This is LaTeX's default title constructed from \title,\author,\date
-
 \makecvtitle %% This is a custom command constructing the CV title from \cvname, \cvpersonalinfo
+
+\section{Experience}
+
+\cvsubsection{Lead Software Engineer}[Oct. 2022 to present]
+[Yahoo! Inc.][Taipei, Taiwan]
+\begin{itemize}
+	\item \textbf{Yahoo Knowledge, Global Search} (Java, Spark, GraphQL, AWS) 
+		\begin{itemize}
+			\item Led a team of 4 engineers to develop and maintain TB-scale data pipelines for Yahoo's largest knowledge graph, enhancing global search experience and powering content semantic services across Yahoo products.
+			\item Designed and architected an LLM application using RAG to provide trustworthy answers for the search autocomplete service.
+			\item Directed the AWS migration to modernize the tech stack, executing a multi-stage migration plan to ensure seamless traffic transition with zero downtime for internal and cross-functional teams.
+			\item Led and transitioned project responsibilities from a 20+ member US team to Taiwan, ensuring uninterrupted operations and high data quality.
+		\end{itemize}
+	\item \textbf{News \& Trending, Global Search} (Java, Spring Webflux, Vespa, Pulsar, AWS) 
+		\begin{itemize}
+			\item Acted as the \textbf{architect role in the product squad}, collaborating with internal and external teams across different time zones to achieve business requirements across Yahoo and its business partners' product lines.
+			\item Served as the \textbf{project owner for the News and Trending platforms}, leading and mentoring a team of 6 engineers. Facilitated sprint agile ceremonies and hosted engineering sharing sessions within the team to foster growth and collaboration.
+			\item Directed an API modernization project that migrated a legacy API to a modern framework. Comprehensive testing minimized revenue risk while reducing p99 latency by 54\%, system resource usage by 53\%, and CI/CD deployment time by 60\%.
+			\item Collaborated with scientists to deliver personalized trending content based on user footprints, boosting module traffic by 14\%. Worked with cross-functional teams to extend the feature to the Yahoo homepage, increasing US search volume by 2\%.
+			\item Designed and executed the migration of a serving layer handling 600K QPS from bare-metal infrastructure to AWS, ensuring seamless data service transitions while maintaining consistency throughout the migration.
+		\end{itemize}
+	\item \textbf{Gemini, Global Ads} (Java, Spring Webflux, AWS) 
+		\begin{itemize}
+			\item Contributed to the Yahoo Native Ads serving platform by refactoring a revenue-sensitive API from C++ to Java on AWS EKS, maintaining performance and revenue for an Ads feedback API handling 70K QPS globally.
+		\end{itemize}
+\end{itemize}
+
+\cvsubsection{Backend Engineer}[Sep. 2021 to Oct. 2022]
+[Shopee][Singapore]
+\begin{itemize}
+	\item \textbf{Promotion Service} (Go, Python, Django)
+		Shopee is a leading e-commerce platform in Southeast Asia.
+		Developed and maintained the Promotion API and admin services supporting price discounts and coupon distribution at 100K+ QPS. 
+		Collaborated with diverse engineer teams to consolidate pricing and shipping discount logic into an unified data gateway for promotion microservices.
+\end{itemize}
+
+\cvsubsection{Senior Software Engineer}[Oct. 2019 to Sep. 2021]
+\cvsubsection{Software Engineer}[Aug. 2017 to Oct. 2019]
+[Yahoo!][Taipei, Taiwan]
+\begin{itemize}
+	\item \textbf{Search Platform, Global Search} (Go, Python, Django) 
+	Developed and maintained various high-impact search services, including TrendingNow, TV Series Search for Taiwan, and Real-time Local Search. Key achievements: 
+	\begin{itemize}
+		\item  Contributed a automated data pipeline for discovering high-revenue trending terms to increase the module revenue by 70\%, 
+		\item  Built a TV guide module covering 1\% of Taiwan search traffic with a 25\% click rate, 
+		\item  Designed real-time data pipelines for public bike rental service in Taiwan and supporting mask inventory search during pandemic, awarded \textbf{Best Poster} at Yahoo Tech conference, 2020.
+	\end{itemize}
+\end{itemize}
+
+% \cvsubsection{Software Engineer}[Aug. 2017 to Oct. 2019]
+% [Yahoo!][Taipei, Taiwan]
+% \begin{itemize}
+% 	\item \textbf{Dictionary Search} (Java, Python) Project owner of Yahoo Dictionary. Delivered a redesign for Taiwan and Hong Kong markets, increasing daily active users by 12\%. Maintained the back-end system supporting global dictionary search scenarios across Yahoo products.
+% 	\item \textbf{Yahoo Search} (Front-end) Contributed to various Yahoo search interface developments. Key achievements: 1) Implemented image ads, increasing revenue by 2\% in Taiwan, 2) Optimized local search with Ajax, boosting user clicks by 1\%, 3) Consolidated carousel implementations, reducing complexity and maintenance effort.
+% \end{itemize}
+% \cvsubsection{Research Assistant}[Nov. 2014 to Jun. 2017]
+% [Networking and Multimedia Systems Lab (NMSL), National Tsing Hua University][Hsinchu, Taiwan]
+% \begin{itemize}
+% \item I have been with NMSL since my senior year as a research assistant and contributed to several projects. \begin{itemize}
+% % \item \textbf{5G Cloud} (Advisors: Dr. Cheng-Hsin Hsu and Dr. Yeh-Chin Chung):  I studied and deployed an opensource project, Open Air Interface, which implements the Radio Access Networks in software. We virtualize the Radio Access Networks in the cloud ushttps://www.overleaf.com/project/5efdfc7bd82afb000103a715ing the Docker containers and Kubernetes.
+% \item \textbf{5G Cloud} (Advisors:  Dr. Cheng-Hsin Hsu and Dr. Yeh-Chin Chung): I studied and deployed an opensource project, Open Air Interface, which implements the Radio Access Networks in software. We virtualize the Radio Access Networks with containers and use Kubernetes for deployment.
+
+% \end{itemize}
+% \end{itemize}
+
+%\cvsubsection{Research Intern}[Aug. 2015]
+%[Wireless and Mobile Communication Technology R\&D Center, TsingHua University][Beijing, China]
+%\begin{itemize}
+%\item I participated in the 5G project, which is a joint project between National Tsing Hua University, Hsinchu, and TsingHua University, Beijing. I was invited by TsingHua
+%University to share the experience on 5G virtualization.
+%\end{itemize}
 
 \section{Education}
 \cvsubsection{M.S., Department of Computer Science, National Tsing Hua University}[Hsinchu, Taiwan]
 [Networking and Multimedia Systems Lab][Sept 2015 to Jun 2017]
 
-\begin{itemize}
-% \item Research Fields : Computer Networks, Radio Access Networks, Cloud, Software Defined Networks
-\item GPA 4.16/4.3
-\end{itemize}
+% \begin{itemize}
+% 	\item Research Fields: Computer Networks, Radio Access Networks, Cloud, Software Defined Networks
+% 	\item GPA 4.16/4.3
+% 	      \item Publication
+% 	      \begin{itemize}
+% 	      \item \textbf{Chen-Nien Mao}, Mu-Han Huang, Satyajit Padhy, et al., "Minimizing Latency of Real-Time Container Cloud for Software Radio Access Networks.", in Proc. of IEEE 7th International Conference on Cloud Computing Technology and Science, 2015 
+% 	      \item Mu-Han Huang, Yu-Cing Luo and \textbf{Chen-Nien Mao}, et al., "Performance evaluations of cloud radio access networks." in Proc. of 12th EAI International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness, 2016
+% 	      \end{itemize}
+% \end{itemize}
 
 \cvsubsection{B.S., Department of Computer Science, National Tsing Hua University}[Hsinchu, Taiwan]
 [Computer Science][Sept 2011 to Jun 2015]
-\begin{itemize}
-% \item Selective Courses: Software Studio Lab (A+), Web Programming (A+), Introduction to Multimedia (A+), Introduction to Computer Networks (A+), Competitive Programming Training (A), Java Programming Language (A), Introduction to Programming (A)
-\item GPA 3.77/4.3 (3.9 for Computer Science Courses)
-\end{itemize}
+% \begin{itemize}
+% 	\item GPA 3.77/4.3 (3.9 for Computer Science Courses)
+% \end{itemize}
 
-\section{Experience}
-\cvsubsection{Senior Software Engineer}[Oct. 2019 to present]
-[Yahoo!][Taipei, Taiwan]
-\begin{itemize}
-
-\item \textbf{Yahoo TrendingNow} (Big Data, Python, PHP) Yahoo TrendingNow discovers the trending topics among Yahoo networks. Based on the user search queries and real-time news content, we analyze the data and provide a list of popular terms to allow users to discover more content on the hot topics. My contributions include 1) Redesign the API and introduce monitoring and alerting, 2) Migrate platform from rhel6 to rhel7 and python2 to python3, 3) Optimize trending commercial keywords in Taiwan and Hong Kong markets. After we launch the new approach, 73\% of the revenue gain is observed since we introduced a more real-time trending keywords process.
-
-\item \textbf{TV Series Search for Taiwan} (Search Application, Python, Java) TV Series Search is the TV guide for the users to explore the available sources from online streaming providers.  In this project, I have built: 
-1) Crawlers that discover the video content from online service providers. 
-2) Data pipelines that process all the crawled data and build a relational data structure. 
-3) A optimized search application provides well-designed search experiences (\href{https://tw.search.yahoo.com/search?p=%E9%80%B2%E6%93%8A%E7%9A%84%E5%B7%A8%E4%BA%BA}{link}) to our users. The metrics show that we cover more than 1\% of the search traffic and 25\% of users who interact with this product. The performance results indicate higher engagement among our search applications.
-
-\item \textbf{Read-time Local Search} (Kubernetes, Search Application, Java, Python) In this project, we provide real-time location information data, e.g. public rental bikes, and parking information, to our map products. The data is streaming into our location search service through our well-designed real-time data pipeline and then presented on our search products.
-
-% \item \textbf{Handwriting System migration} (Back-end, AWS) I have been working on the AWS migration for handwriting system in early 2020. To reduce the maintanance cost and provide secure connection, I have built a deployment pipeline using Cloudformation to port the system on AWS and upgrade the API with mTLS support. %
-
-
-\end{itemize}
-
-\cvsubsection{Software Engineer}[Aug. 2017 to Oct. 2019]
-[Yahoo!][Taipei, Taiwan]
-\begin{itemize}
-\item \textbf{Yahoo Dictionary} (Front-end, Search Application, Java, Python) I am the project owner of Yahoo Dictionary (\href{https://tw.dictionary.search.yahoo.com/}{link}). I have driven the dictionary interface redesign in Taiwan and Hong Kong markets that increase the daily active users by 12\%. Besides, I also maintained the dictionary back-end system, which powered all the search scenarios among Yahoo products.
-\item \textbf{Yahoo Search} (Front-end, HTML, CSS, Javascript) I first joined Yahoo as a front-end engineer, I have been involved in various Yahoo search interfaces development. In particular, my highlighted contributions include: 1) Implemented image ads at Yahoo search which increase revenue by 2\% in Taiwan 2) Improving the Local search with Ajax framework which optimize the loading cost and increases 1\% user click. % and 3) Consolidate the carousel implementation which reduces the complexity and maintenance effort.
-\end{itemize}
-
-\cvsubsection{Research Assistant}[Nov. 2014 to Jun. 2017]
-[Networking and Multimedia Systems Lab (NMSL), National Tsing Hua University][Hsinchu, Taiwan]
-\begin{itemize}
-\item I have been with NMSL since my senior year as a research assistant, and contributed to several projects. \begin{itemize}
-% \item \textbf{5G Cloud} (Advisors: Dr. Cheng-Hsin Hsu and Dr. Yeh-Chin Chung):  I studied and deployed an opensource project, Open Air Interface, which implements the Radio Access Networks in software. We virtualizes the Radio Access Networks in the cloud using the Docker containers and Kubernates.
-\item \textbf{SDN in Enterprise Networks} (Advisors:  Dr. Cheng-Hsin Hsu): In this project, we leverage the MPLS concepts to design a low latency SDN algorithm for enterprise networks. The goal is to minimize the initialization delay and support load balance in the networks.
-\end{itemize}
-\end{itemize}
-
-%\cvsubsection{Research Intern}[Aug. 2015]
-%[Wireless and Mobile Communication Technology R\&D Center, TsingHua University][Beijing, China]
-%\begin{itemize}
-%\item I participated in the 5G project, which is a joint project between National Tsing Hua University, Hsinchu and TsingHua University, Beijing. I was invited by TsingHua
-%University to share the experience on 5G virtualization.
-%\end{itemize}
-
-\section{Publication}
-\begin{itemize}
-\item  \textbf{Chen-Nien Mao}, Mu-Han Huang, Satyajit Padhy, et al., "Minimizing Latency of Real-Time Container Cloud for Software Radio Access Networks.", in Proc. of IEEE 7th International Conference on Cloud Computing Technology and Science,
-2015  
-\item Mu-Han Huang ,Yu-Cing Luo and \textbf{Chen-Nien Mao}, et al., "Performance evaluations of cloud radio access networks." in Proc. of 12th EAI International Conference on Heterogeneous Networking for Quality, Reliability, Security and Robustness, 2016
-\end{itemize}
+% \section{Publication}
+% \begin{itemize}
+% \item  \textbf{Chen-Nien Mao}, Mu-Han Huang, Satyajit Padhy, et al., "Minimizing Latency of Real-Time Container Cloud for Software Radio Access Networks.", in Proc. of IEEE 7th International Conference on Cloud Computing Technology and Science,
+% 2015  
+% % 
+% \end{itemize}
 
 \section{Skills}
 \begin{description}[widest=Langauges]
-\item[Programming Skills:]
-\textbf{Python:} 5 years experience,
-\textbf{Java:} 2 years experience,
-\textbf{C:} 3 years experience
-\item[Technical Skills:]
-\textbf{AWS:} 1 year experience
-\textbf{Kubernetes:} 1 year experience
-\item[Languages:] 
-\textbf{English:} Professional Proficiency.
-\textbf{Mandarin:} Native.
+	\item[Programming Skills:]
+		\textbf{Python}, Java, Scala, and Go
+	\item[Cloud \& Infrastructure:]
+		\textbf{AWS}, Kubernetes, Docker, Terraform
+	\item[Technical stack:]
+	    Spring Webflux, Django, Vespa, Pulsar, Kafka, PySpark
+	\item[Monitoring \& Observability:]
+		OpenTelemetry, Prometheus, Grafana, Splunk
+	\item[Languages:]
+		\textbf{English} (Professional Proficiency), \textbf{Mandarin} (Native)
 \end{description}
 
 
